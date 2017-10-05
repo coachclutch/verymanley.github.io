@@ -61,7 +61,7 @@ body
 	float:left;
 	width: 800px;
 	border-bottom:1px solid #266fd2;
-  border-top:1px solid #266fd2;
+  	border-top:1px solid #266fd2;
 }
 
 #navcontainer:hover
@@ -74,7 +74,7 @@ body
 	margin-left: 0;
 	padding-left: 0;
 	list-style-type: none;
-  text-align: center;
+        text-align: center;
 }
 
 #navcontainer li
@@ -85,11 +85,11 @@ body
 
 #navcontainer a
 {
-  display:inline-block;
-	margin:1px;
-  padding-top :4px;
-  padding-bottom :4px;
-  padding-right: 10px;
+  	display:inline-block;
+  	margin:1px;
+  	padding-top :4px;
+  	padding-bottom :4px;
+  	padding-right: 10px;
 	padding-left: 10px;
 	width: auto;
 }
@@ -103,7 +103,11 @@ body
 
 #navcontainer a:hover
 {
-	color:#000000;
-	background:#266fd2;
+	color:#a5adb8;
+        background:#232729;
+  	border-bottom:1px solid #266fd2;
+  	padding-bottom :3px;
+
+
 }
 /*---------nav end------------*/
