@@ -15,13 +15,19 @@ body
 
 #globalcontainer
 {
-	position:absolute;
-	height:100%;
+	position: relative;
+	height:1000px;
 	width:800px;
 	left:50%;
+  margin-top:40px;
 	margin-left:-400px;
-	border-right:1px solid #266fd2;
-	border-left:1px solid #266fd2;
+}
+
+#header
+{
+	height:400px;
+	width:800px;
+  border:1px solid #266fd2;
 }
 
 #mailto
@@ -37,13 +43,11 @@ body
 	color:black;
 }
 
-
-/*---------nav begin------------*/
 #tab
 {
 	position:absolute;
+  top: 0;
 	right:20px;
-	z-index:-1;
 	padding:2px;
 	border-right:1px solid #266fd2;
 	border-bottom:1px solid #266fd2;
@@ -52,16 +56,29 @@ body
 	background:#232729;
 }
 
+/*---------nav begin------------*/
+
 #navlist
 {
 }
 
 #navcontainer
 {
-	float:left;
+  top: 0;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
 	width: 800px;
 	border-bottom:1px solid #266fd2;
-  	border-top:1px solid #266fd2;
+  border-top:1px solid #266fd2;
+  border-right:1px solid #266fd2;
+  border-left:1px solid #266fd2;
+  height:24px;
+	width:800px;
+	left:50%;
+	margin-left:-400px;
+  background-color:#282b2d;
+  opacity: .8;
 }
 
 #navcontainer:hover
@@ -74,7 +91,7 @@ body
 	margin-left: 0;
 	padding-left: 0;
 	list-style-type: none;
-        text-align: center;
+  text-align: center;
 }
 
 #navcontainer li
@@ -85,11 +102,11 @@ body
 
 #navcontainer a
 {
-  	display:inline-block;
-  	margin:1px;
-  	padding-top :4px;
-  	padding-bottom :4px;
-  	padding-right: 10px;
+  display:inline-block;
+	margin:1px;
+  padding-top :4px;
+  padding-bottom :4px;
+  padding-right: 10px;
 	padding-left: 10px;
 	width: auto;
 }
@@ -103,10 +120,10 @@ body
 
 #navcontainer a:hover
 {
-	color:#a5adb8;
-        background:#232729;
-  	border-bottom:1px solid #266fd2;
-  	padding-bottom :3px;
+	color:#f1a91f;
+  background:#232729;
+  border-bottom:1px solid #266fd2;
+  padding-bottom :3px;
 
 
 }
