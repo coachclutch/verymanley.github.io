@@ -19,7 +19,7 @@ body
 	height:100%;
 	width:800px;
 	left:50%;
-	margin-left:-700px;
+	margin-left:-400px;
 	border-right:1px solid #266fd2;
 	border-left:1px solid #266fd2;
 }
@@ -37,28 +37,9 @@ body
 	color:black;
 }
 
-/*---------right begin------------*/
-#top
-{
-	width:800px;
-}
-/*---------right end------------*/
-
-/*---------intro begin------------*/
-#intro
-{
-	padding:5px;
-	border-bottom:1px solid #266fd2;
-}
-
-#intro:hover
-{
-	background:#232729;
-}
-/*---------intro end------------*/
 
 /*---------nav begin------------*/
-#linkhead
+#tab
 {
 	position:absolute;
 	right:20px;
@@ -73,18 +54,14 @@ body
 
 #navlist
 {
-	margin-top:4px;
 }
 
 #navcontainer
 {
-  border-top:1px solid #266fd2;
-
-	position:relative;
 	float:left;
-	padding-bottom:4px;
 	width: 800px;
 	border-bottom:1px solid #266fd2;
+  border-top:1px solid #266fd2;
 }
 
 #navcontainer:hover
@@ -97,14 +74,23 @@ body
 	margin-left: 0;
 	padding-left: 0;
 	list-style-type: none;
+  text-align: center;
 }
+
+#navcontainer li
+{
+  display: inline;
+}
+
 
 #navcontainer a
 {
-	display: block;
-	margin-top:1px;
-	margin-bottom:1px;
-	padding-left:5px;
+  display:inline-block;
+	margin:1px;
+  padding-top :4px;
+  padding-bottom :4px;
+  padding-right: 10px;
+	padding-left: 10px;
 	width: auto;
 }
 
@@ -117,75 +103,7 @@ body
 
 #navcontainer a:hover
 {
-  border-top:#000000 1px solid;
-
-	border-left:#232729 20px solid;
 	color:#000000;
-	background:#266fd2 url(../shop/navgif1.gif);
-	background-position:right;
-	background-repeat:no-repeat
+	background:#266fd2;
 }
 /*---------nav end------------*/
-
-/*---------twiter begin------------*/
-#twitter
-{
-	width:800px;
-	position:fixed;
-	bottom:0;
-	border-top:1px solid #266fd2;
-}
-
-#followme
-{
-	padding:5px 0 5px 5px;
-}
-
-#followme:hover
-{
-	background:#232729;
-}
-
-#followme a
-{
-	color:#ffffff;
-	text-decoration:none;
-	border-bottom:1px dashed #232729;
-}
-
-#followme a:hover
-{
-	background-color:#266fd2;
-	color:black;
-}
-
-ul#twitter_update_list
-{
-	list-style:none;
-}
-
-ul#twitter_update_list li
-{
-	padding:5px;
-	border-top:1px dashed #266fd2;
-}
-
-ul#twitter_update_list li:hover
-{
-	background:#232729;
-}
-
-ul#twitter_update_list li a
-{
-	word-break:break-all;
-	text-decoration:none;
-	color:white;
-	border-bottom:1px dashed #232729;
-}
-
-ul#twitter_update_list li a:hover
-{
-	background-color:#266fd2;
-	color:black;
-}
-/*---------twiter end------------*/
