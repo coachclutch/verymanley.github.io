@@ -64,9 +64,10 @@ body
 {
   position: relative;
   float: left;
-	height: 200px;
-	width: 738px;
+	height: 100px;
+	width: 698px;
   margin-left: 31px;
+  padding: 20px;
   background-color: #282b2d;
   opacity: .9;
   border: 1px solid #266fd2;
@@ -135,6 +136,7 @@ body
   padding: 10px;
   border: 1px solid #266fd2;
 }
+
 
 #dev_a
 {
@@ -371,4 +373,3 @@ body
 
 }
 /*---------nav end------------*/
-
