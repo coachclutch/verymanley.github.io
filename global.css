@@ -60,6 +60,23 @@ body
   border: 1px solid #266fd2;
 }
 
+#solutions_content
+{
+  position: relative;
+  float: left;
+	height: 200px;
+	width: 738px;
+  margin-left: 31px;
+  background-color: #282b2d;
+  opacity: .9;
+  border: 1px solid #266fd2;
+}
+
+#solutions_content:hover
+{
+	background: #232729;
+}
+
 #mining_a
 {
   background-image: url("http://verymanley.github.io/20171006_200339.jpg");
@@ -354,3 +371,4 @@ body
 
 }
 /*---------nav end------------*/
+
