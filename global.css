@@ -13,30 +13,186 @@ body
 	text-decoration: none;
 }
 
-#globalcontainer
+#global_container
 {
 	position: absolute;
-	height: 1200px;
+	height: 1660px;
 	width: 800px;
 	left: 50%;
   margin-top: 40px;
 	margin-left: -400px;
 }
 
-#header
+#header_container
 {
+  position: relative;
+  float: left;
 	height: 400px;
 	width: 800px;
   border: 1px solid #266fd2;
 }
 
-#about
+#mining_container
 {
-  position: absolute;
-  bottom: 20px;
-	height: 760px;
+  background-image: url("http://blog.dieboldnixdorf.com/wp-content/uploads/2016/08/DN_20160823_Blog_cashless-branch.jpg");
+  background-size: cover;
+  position: relative;
+  float: left;
+	height: 380px;
 	width: 800px;
+  margin-top: 20px;
+  padding-top: 31px;
+  padding-bottom: 31px;
   border: 1px solid #266fd2;
+}
+
+#solutions_container
+{
+  background-image: url("http://blog.dieboldnixdorf.com/wp-content/uploads/2016/08/DN_20160823_Blog_cashless-branch.jpg");
+  background-size: cover;
+  position: relative;
+  float: left;
+	height: 380px;
+	width: 800px;
+  margin-top: 20px;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  border: 1px solid #266fd2;
+}
+
+#mining_a
+{
+  background-image: url("http://verymanley.github.io/20171006_200339.jpg");
+  background-size: cover;
+  position: relative;
+  float: left;
+	height: 100%;
+	width: 352px;
+  margin-bottom: 31px;
+  margin-right: 0px;
+  margin-left: 31px;
+  background-color: #282b2d;
+  opacity: .9;
+  border: 1px solid #266fd2;
+}
+
+#mining_b
+{
+  background-image: url("http://verymanley.github.io/20171006_200738.jpg");
+  background-size: cover;
+  position: relative;
+  float: left;
+	height: 100%;
+	width: 352px;
+  margin-bottom: 31px;
+  margin-right: 0px;
+  margin-left: 31px;
+  background-color: #282b2d;
+  opacity: .9;
+  border: 1px solid #266fd2;
+}
+
+#dev_container
+{
+  background-image: url("https://www.bnymellon.com/us/en/_locale-assets/img/our-thinking/articles/fintechvideos-1260-410.jpg");
+  background-size: cover;
+  position: relative;
+  float: left;
+	height: 200px;
+	width: 800px;
+  margin-top: 20px;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  border: 1px solid #266fd2;
+}
+
+#dev_content
+{
+  background-image: url("https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAW0AAAAJGYxNGI5NjNmLTY0NmEtNGU0Ny1hNzIwLTdjNThkZWQxNmFhNw.jpg");
+  background-size: cover;
+  position: relative;
+  float: left;
+	height: 20px;
+	width: 100px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #266fd2;
+}
+
+#dev_a
+{
+  position: relative;
+  float: left;
+	height: 100%;
+	width: 160px;
+  margin-bottom: 31px;
+  margin-right: 0px;
+  margin-left: 31px;
+  background-color: #282b2d;
+  opacity: .9;
+  border: 1px solid #266fd2;
+}
+
+#dev_b
+{
+  position: relative;
+  float: left;
+	height: 100%;
+	width: 160px;
+  margin-bottom: 5px;
+  margin-right: 0px;
+  margin-left: 30px;
+  background-color: #282b2d;
+  opacity: .9;
+  border: 1px solid #266fd2;
+}
+
+#dev_c
+{
+  position: relative;
+  float: left;
+	height: 100%;
+	width: 160px;
+  margin-bottom: 5px;
+  margin-right: 0px;
+  margin-left: 30px;
+  background-color: #282b2d;
+  opacity: .9;
+  border: 1px solid #266fd2;
+}
+
+#dev_d
+{
+  position: relative;
+  float: left;
+	height: 100%;
+	width: 160px;
+  margin-bottom: 5px;
+  margin-right: 31px;
+  margin-left: 30px;
+  background-color: #282b2d;
+  opacity: .9;
+  border: 1px solid #266fd2;
+}
+
+#dev_a:hover
+{
+	background: #232729;
+}
+
+#dev_b:hover
+{
+	background: #232729;
+}
+
+#dev_c:hover
+{
+	background: #232729;
+}
+
+#dev_d:hover
+{
+	background: #232729;
 }
 
 #mailto
@@ -52,7 +208,9 @@ body
 	color: black;
 }
 
-#headtab
+/*---------tabs begin------------*/
+
+#head_tab
 {
 	position: absolute;
   top: 0;
@@ -65,26 +223,75 @@ body
 	background: #232729;
 }
 
-#foottab
+#solutions_tab
 {
-	position: fixed;
-  bottom: 0;
-	right: 20px;
+	position: absolute;
+  top: 0;
+	left: 20px;
 	padding: 2px;
 	border-right: 1px solid #266fd2;
-	border-top: 1px solid #266fd2;
+	border-bottom: 1px solid #266fd2;
 	border-left: 1px solid #266fd2;
 	color: #ffffff;
 	background: #232729;
 }
 
+#dev_tab
+{
+	position: absolute;
+  top: 0;
+	left: 20px;
+	padding: 2px;
+	border-right: 1px solid #266fd2;
+	border-bottom: 1px solid #266fd2;
+	border-left: 1px solid #266fd2;
+	color: #ffffff;
+	background: #232729;
+}
+
+#foxmine_tab
+{
+	position: absolute;
+  top: 0;
+	left: 20px;
+	padding: 2px;
+	border-right: 1px solid #266fd2;
+	border-bottom: 1px solid #266fd2;
+	border-left: 1px solid #266fd2;
+	color: #ffffff;
+	background: #232729;
+}
+
+#foot_tab
+{
+  bottom: 0;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+	width: 100%;
+	border-top: 1px solid #266fd2;
+  height: 18px;
+  margin-top: 20px;
+  padding: 4px;
+  background-color: #282b2d;
+  opacity: .8;
+  text-align: center;
+}
+
+#foot_tab:hover
+{
+	background: #232729;
+}
+
+/*---------tabs end------------*/
+
 /*---------nav begin------------*/
 
-#navlist
+#nav_list
 {
 }
 
-#navcontainer
+#nav_container
 {
   top: 0;
   position: fixed;
@@ -95,11 +302,13 @@ body
   height: 24px;
 	left: 50%;
 	margin-left: -400px;
+  margin-bottom: 20px;
   background-color: #282b2d;
   opacity: .8;
+  text-align: center;
 }
 
-#navcontainer:hover
+#nav_container:hover
 {
 	background: #232729;
 }
@@ -112,12 +321,12 @@ body
   text-align: center;
 }
 
-#navcontainer li
+#nav_container li
 {
   display: inline;
 }
 
-#navcontainer a
+#nav_container a
 {
   display: inline-block;
 	margin: 1px;
@@ -128,14 +337,14 @@ body
 	width: auto;
 }
 
-#navcontainer a:link,
-#navlist a:visited
+#nav_container a:link,
+#nav_list a:visited
 {
 	color: #ffffff;
 	text-decoration: none;
 }
 
-#navcontainer a:hover
+#nav_container a:hover
 {
 	color: #f1a91f;
   background: #232729;
