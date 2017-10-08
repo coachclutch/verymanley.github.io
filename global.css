@@ -57,11 +57,25 @@ body
   background-size: cover;
   position: relative;
   float: left;
-	height: 330px;
+	height: 270px;
 	width: 800px;
   margin-top: 20px;
+  padding-top: 31px;
+  padding-bottom: 31px;
   border: 1px solid #266fd2;
   box-shadow: 2px 2px 4px #000000
+}
+
+#software_content
+{
+  position: relative;
+  float: left;
+	height: 100%;
+	width: 738px;
+  margin-left: 31px;
+  background-color: #282b2d;
+  opacity: .9;
+  border: 1px solid #266fd2;
 }
 
 #solutions_content
