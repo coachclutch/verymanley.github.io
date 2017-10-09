@@ -31,6 +31,7 @@ body
 {
   background-image: url("http://verymanley.github.io/grid1.jpg");
   background-size: cover;
+  opacity: .9;
   position: relative;
   float: left;
 	height: 400px;
@@ -44,6 +45,7 @@ body
 {
   background-image: url("https://tctechcrunch2011.files.wordpress.com/2016/12/electron-blockchain.jpg?w=1024&h=576");
   background-size: cover;
+  opacity: .9;
   position: relative;
   float: left;
 	height: 380px;
@@ -59,6 +61,7 @@ body
 {
   background-image: url("https://ak2.picdn.net/shutterstock/videos/29895532/thumb/1.jpg");
   background-size: cover;
+  opacity: .9;
   position: relative;
   float: left;
 	height: 270px;
@@ -121,6 +124,7 @@ body
 {
   background-image: url("http://verymanley.github.io/grid2.jpg");
   background-size: cover;
+  opacity: .9;
   position: relative;
   float: left;
 	height: 250px;
@@ -243,6 +247,7 @@ body
 {
   background-image: url("https://www.bnymellon.com/us/en/_locale-assets/img/our-thinking/articles/fintechvideos-1260-410.jpg");
   background-size: cover;
+  opacity: .9;
   position: relative;
   float: left;
 	height: 200px;
